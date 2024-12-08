@@ -31,3 +31,14 @@ export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH
 gcc -rdynamic -o prog_runtime test_runtime.c -ldl
 ./prog_runtime
 ```
+
+## Expected Output
+```
+Optimized struct size: 32 bytes
+Optimized layout:
+Name: c, Type: double, Offset: 0
+Name: f, Type: long, Offset: 8
+Name: g, Type: long, Offset: 16
+Name: d, Type: short, Offset: 24
+Name: a, Type: char, Offset: 26
+```
