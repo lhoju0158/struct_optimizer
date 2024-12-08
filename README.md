@@ -1,15 +1,12 @@
 # Project: Optimized Struct Handler
 ## Introduction
-This project provides a set of tools and utilities for optimizing the memory layout of C structs. The main focus of the project is to analyze and reorder struct members to minimize memory usage while adhering to alignment rules. It also supports runtime dynamic linking for enhanced flexibility in execution.
+This project provides a set of tools and utilities for optimizing the memory layout of C structs. The main focus of the project is to analyze and reorder struct members to minimize memory usage while adhering to alignment rules.
 
 Key features include:
 
 
 * Optimizing the struct layout to reduce memory size.
 * Printing the optimized layout and its offsets.
-* Supporting both static and runtime linking.
-
-------
 
 ## How to Butild and Run
 ### Static Library
